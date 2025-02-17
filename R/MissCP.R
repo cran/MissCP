@@ -1025,7 +1025,6 @@ second.step <- function(data_y, data_x, max.iteration = max.iteration, tol = tol
 #' @param block.range the search domain for optimal block size.
 #' @importFrom Rcpp sourceCpp
 #' @importFrom glmnet cv.glmnet
-#' @importFrom sparsevar fitVAR
 #' @export
 #' @examples
 #' set.seed(1)
